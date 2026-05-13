@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A clean GitHub Pages portfolio site for projects, writing, and contact information."
+    />
+    <title>Your Name | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Home">YN</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media" role="img" aria-label="Abstract workspace with layered code panels"></div>
+        <div class="hero-content">
+          <p class="eyebrow">GitHub Pages Portfolio</p>
+          <h1 id="hero-title">Your Name</h1>
+          <p class="hero-copy">
+            I build thoughtful digital work: useful tools, clear interfaces, and projects that make hard ideas easier to use.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#work">View Work</a>
+            <a class="button secondary" href="mailto:you@example.com">Email Me</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro" aria-labelledby="intro-title">
+        <div>
+          <p class="eyebrow">Now</p>
+          <h2 id="intro-title">A small home base for the things you make.</h2>
+        </div>
+        <p>
+          Use this page as a personal site, project index, resume landing page, or lightweight portfolio. Replace the text,
+          update the links, and publish it from your GitHub Pages repository.
+        </p>
+      </section>
+
+      <section class="section" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Work</p>
+          <h2 id="work-title">Projects</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-visual visual-one"></div>
+            <div class="project-body">
+              <h3>Project One</h3>
+              <p>A short description of what the project does, who it helps, and what made it interesting to build.</p>
+              <a href="https://github.com/" target="_blank" rel="noreferrer">View repository</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual visual-two"></div>
+            <div class="project-body">
+              <h3>Project Two</h3>
+              <p>A focused tool, prototype, or experiment. Add measurable outcomes or a compact note about your role.</p>
+              <a href="https://github.com/" target="_blank" rel="noreferrer">View repository</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual visual-three"></div>
+            <div class="project-body">
+              <h3>Project Three</h3>
+              <p>Highlight a polished app, a research project, a design system, or anything you want visitors to notice.</p>
+              <a href="https://github.com/" target="_blank" rel="noreferrer">View repository</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section about" id="about" aria-labelledby="about-title">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2 id="about-title">What I care about</h2>
+        </div>
+        <div class="about-grid">
+          <p>
+            I like building systems that feel calm, capable, and clear. This space can introduce your interests, technical
+            stack, current learning goals, or the kind of work you want to do next.
+          </p>
+          <ul class="skill-list" aria-label="Skills">
+            <li>Frontend</li>
+            <li>Data</li>
+            <li>Automation</li>
+            <li>Design</li>
+            <li>Research</li>
+            <li>Writing</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Let’s connect.</h2>
+          <p>Update these links with your own email, GitHub, LinkedIn, or resume.</p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:you@example.com">you@example.com</a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Your Name. Built for GitHub Pages.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
