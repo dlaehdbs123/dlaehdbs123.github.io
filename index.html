@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="A clean GitHub Pages portfolio site for projects, writing, and contact information."
+      content="Do-Yoon Lim's research portfolio in memory circuits, DRAM design, emerging memory, and computing-in-memory."
     />
-    <title>Your Name | Portfolio</title>
+    <title>Do-Yoon Lim | Research Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,9 +18,10 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="Home">YN</a>
+      <a class="brand" href="#top" aria-label="Home">DL</a>
       <nav class="site-nav" aria-label="Primary navigation">
-        <a href="#work">Work</a>
+        <a href="#work">Research</a>
+        <a href="#publications">Publications</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -30,15 +31,16 @@
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-media" role="img" aria-label="Abstract workspace with layered code panels"></div>
         <div class="hero-content">
-          <p class="eyebrow">GitHub Pages Portfolio</p>
+          <p class="eyebrow">Research Portfolio</p>
           <p class="greeting">Hi, Do!</p>
-          <h1 id="hero-title">Your Name</h1>
+          <h1 id="hero-title">Do-Yoon Lim</h1>
           <p class="hero-copy">
-            I build thoughtful digital work: useful tools, clear interfaces, and projects that make hard ideas easier to use.
+            Ph.D. student in Electrical and Computer Engineering at Cornell University, working on memory circuits,
+            DRAM architecture, emerging memory, and computing-in-memory systems.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#work">View Work</a>
-            <a class="button secondary" href="mailto:you@example.com">Email Me</a>
+            <a class="button primary" href="#work">View Research</a>
+            <a class="button secondary" href="mailto:dl2284@cornell.edu">Email Me</a>
           </div>
         </div>
       </section>
@@ -46,45 +48,46 @@
       <section class="section intro" aria-labelledby="intro-title">
         <div>
           <p class="eyebrow">Now</p>
-          <h2 id="intro-title">A small home base for the things you make.</h2>
+          <h2 id="intro-title">Researching efficient memory and compute architectures.</h2>
         </div>
         <p>
-          Use this page as a personal site, project index, resume landing page, or lightweight portfolio. Replace the text,
-          update the links, and publish it from your GitHub Pages repository.
+          I am currently a Ph.D. student at Cornell Tech advised by Prof. Jae-sun Seo. My work focuses on DRAM design,
+          emerging memory such as STT-MRAM, computing-in-memory, machine learning accelerators, and physical unclonable
+          functions.
         </p>
       </section>
 
       <section class="section" id="work" aria-labelledby="work-title">
         <div class="section-heading">
-          <p class="eyebrow">Selected Work</p>
-          <h2 id="work-title">Projects</h2>
+          <p class="eyebrow">Research</p>
+          <h2 id="work-title">Selected Work</h2>
         </div>
 
         <div class="project-grid">
           <article class="project-card">
             <div class="project-visual visual-one"></div>
             <div class="project-body">
-              <h3>Project One</h3>
-              <p>A short description of what the project does, who it helps, and what made it interesting to build.</p>
-              <a href="https://github.com/" target="_blank" rel="noreferrer">View repository</a>
+              <h3>1T1C eDRAM Processing-In-Memory</h3>
+              <p>Designed a micro sense amplifier for 1T1C embedded DRAM PIM, enabling multi-row access and improving throughput by 5.44X.</p>
+              <a href="#publications">Related publication</a>
             </div>
           </article>
 
           <article class="project-card">
             <div class="project-visual visual-two"></div>
             <div class="project-body">
-              <h3>Project Two</h3>
-              <p>A focused tool, prototype, or experiment. Add measurable outcomes or a compact note about your role.</p>
-              <a href="https://github.com/" target="_blank" rel="noreferrer">View repository</a>
+              <h3>DRAM IO Sense Amplifier</h3>
+              <p>Developed an offset-cancel IO sense amplifier with static current-free pre-sensing, fabricated in Samsung 28nm CMOS.</p>
+              <a href="#publications">Related publication</a>
             </div>
           </article>
 
           <article class="project-card">
             <div class="project-visual visual-three"></div>
             <div class="project-body">
-              <h3>Project Three</h3>
-              <p>Highlight a polished app, a research project, a design system, or anything you want visitors to notice.</p>
-              <a href="https://github.com/" target="_blank" rel="noreferrer">View repository</a>
+              <h3>STT-MRAM Write Termination</h3>
+              <p>Proposed a dual-mode inverter-based write termination and sense amplifier scheme for energy and area efficient STT-MRAM.</p>
+              <a href="#publications">Related publication</a>
             </div>
           </article>
         </div>
@@ -93,21 +96,46 @@
       <section class="section about" id="about" aria-labelledby="about-title">
         <div class="section-heading">
           <p class="eyebrow">About</p>
-          <h2 id="about-title">What I care about</h2>
+          <h2 id="about-title">Education and interests</h2>
         </div>
         <div class="about-grid">
           <p>
-            I like building systems that feel calm, capable, and clear. This space can introduce your interests, technical
-            stack, current learning goals, or the kind of work you want to do next.
+            I received my B.S. and M.S. in Electrical and Electronic Engineering from Yonsei University, advised by
+            Prof. Seong-Ook Jung, and began my Ph.D. at Cornell University in 2025.
           </p>
           <ul class="skill-list" aria-label="Skills">
-            <li>Frontend</li>
-            <li>Data</li>
-            <li>Automation</li>
-            <li>Design</li>
-            <li>Research</li>
-            <li>Writing</li>
+            <li>DRAM Design</li>
+            <li>STT-MRAM</li>
+            <li>Computing-In-Memory</li>
+            <li>ML Accelerators</li>
+            <li>PUF</li>
+            <li>VLSI Circuits</li>
           </ul>
+        </div>
+      </section>
+
+      <section class="section publications" id="publications" aria-labelledby="publications-title">
+        <div class="section-heading">
+          <p class="eyebrow">Publications</p>
+          <h2 id="publications-title">Recent papers and honors</h2>
+        </div>
+        <div class="publication-list">
+          <article>
+            <h3>Computing-In-Memory Using 1T1C Embedded DRAM Cell with Micro Sense Amplifier</h3>
+            <p>IEEE ICCE-Asia, 2022. Best Paper Award.</p>
+          </article>
+          <article>
+            <h3>Direct Input Transfer Offset Cancel DRAM IO Sense Amplifier with Static Current-Free Pre-sensing</h3>
+            <p>IEEE Journal of Solid-State Circuits, 2025.</p>
+          </article>
+          <article>
+            <h3>Dual-Mode Inverter-based Write Termination Scheme for 28-nm 1T1MTJ STT-MRAM</h3>
+            <p>IEEE Journal of Solid-State Circuits, 2026.</p>
+          </article>
+          <article>
+            <h3>PAGE: Processing-using-DRAM Architecture-Circuits Co-Optimization</h3>
+            <p>ACM/IEEE Design Automation Conference, accepted.</p>
+          </article>
         </div>
       </section>
 
@@ -115,18 +143,18 @@
         <div>
           <p class="eyebrow">Contact</p>
           <h2 id="contact-title">Let’s connect.</h2>
-          <p>Update these links with your own email, GitHub, LinkedIn, or resume.</p>
+          <p>For research questions, collaborations, or paper discussions, reach me by email.</p>
         </div>
         <div class="contact-links">
-          <a href="mailto:you@example.com">you@example.com</a>
-          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="mailto:dl2284@cornell.edu">dl2284@cornell.edu</a>
+          <a href="https://seo.ece.cornell.edu/" target="_blank" rel="noreferrer">Seo Research Group</a>
+          <a href="http://vlsisys.yonsei.ac.kr/" target="_blank" rel="noreferrer">VLSI System Lab</a>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>&copy; <span id="year"></span> Your Name. Built for GitHub Pages.</p>
+      <p>&copy; <span id="year"></span> Do-Yoon Lim. Built for GitHub Pages.</p>
     </footer>
 
     <script src="script.js"></script>
